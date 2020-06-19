@@ -1,0 +1,38 @@
+body {
+    background: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title,
+#description {
+    text-align: center;
+}
+label {
+    display: flex;
+    align-items: center;
+}
+header {
+    background: lawngreen;
+    border-radius: 2rem;
+}
+form {
+    background: lawngreen;
+    padding: 3rem;
+    border-radius: 2rem;
+    margin: auto;
+
+}
+.box {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+.box2 {
+    display: block;
+    
+    
+    
+}
+textarea {
+    min-height: 100px;
+    width: 50%;
+}
+

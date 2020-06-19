@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Survey Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <header>
+    <h1 id="title">We are hiring computer techs</h1>
+    
+    <p id="description">Answer some questions and we may consider you for future openings!</p>
+    </header>
+
+    <form id="survey-form">
+
+        <div class="box">
+        <label id="name-label">Name</label>
+        <input id="name" class="box2" type="text" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="box">
+        <label id="email-label">Email</label>
+        <input id="email" class="box2" type="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="box">
+        <label id="number-label">Number of Years of Experience</label>
+        <input id="number" class="box2" type="number" min="1" max="50" name="number" placeholder="Experience (Optional)">
+        </div>
+
+        <div class="box">
+            <label>Highest Education</label>
+        <select id="dropdown" class="box2" name="your-title" required>
+            <option value="Engineer">Preschool</option>
+            <option value="Developer">High-School</option>
+            <option value="Programmer">College</option>
+            <option value="The Streets">The Streets</option>
+        </select>
+        </div>
+
+        <div class="box">
+            <label>Do you know how to code?</label>
+        <label><input name="answer" type="radio" value="yes">Yes</label>
+        <label><input name="answer" type="radio" value="no">No</label>
+        <br>
+
+        <div class="box">
+            <label>Do you have experience in any of the following?</label>
+        <label><input value="Networking" type="checkbox">Networking</label>
+        <label><input value="Troubleshooting" type="checkbox">Troubleshooting</label>
+        <label><input value="Linux administration" type="checkbox">Linux administration</label>
+        <label><input value="Hardware repair" type="checkbox">Hardware repair</label>
+        </div>
+
+        <div class="box">
+            <label>Any other information that you would like us to consider?</label>
+        <textarea id="comments"></textarea>
+        </div>
+
+        <div class="box">
+        <button id="submit">Submit!</button>
+        </div>
+        
+    </form>
+
+    <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>
